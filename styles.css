@@ -1,0 +1,85 @@
+/* taustan väri */
+.navbar-custom {
+    background-color: rgba(29, 78, 24, 0.9);
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgba(248, 192, 219, 0.8);
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(248, 192, 219, 0.8);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(248, 192, 219, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(248, 192, 219, 0.8);
+}
+
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: pink !important;
+    cursor: pointer;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+body { position: relative; 
+}
+
+#demo {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    max-width:500px;
+}
+
+#demo {
+    margin-top: 100px;
+}
+
+#kesagalleria {
+    margin-top: 50px;
+}
+
+.rounded-5 {
+    border-radius: 1rem;
+}
+
+.card-group {
+    margin-top: 100px;
+}
+
+.d-flex {
+    margin-top: 50px;
+}
+
+#accordionFlushExample {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 900px;
+    margin-bottom: 100px;
+}
+
+#kortti {
+    margin: auto;
+}
+
+.table-responsive {
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 500px;
+}
