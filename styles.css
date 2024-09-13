@@ -77,7 +77,7 @@ body { position: relative;
 
 .table-responsive {
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     max-width: 500px;
 }
 
