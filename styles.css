@@ -41,6 +41,7 @@
 body { position: relative; 
 }
 
+/* kuvakaruselli */
 #demo {
     width: 100%; /* Set width to 100% */
     margin: auto;
@@ -52,6 +53,7 @@ body { position: relative;
     margin-top: 50px;
 }
 
+/* gridin kuvien reunojen pyöristys */
 .rounded-5 {
     border-radius: 1rem;
 }
@@ -64,6 +66,7 @@ body { position: relative;
     margin-top: 50px;
 }
 
+/* haitarin keskitys, leveyden rajoitus sekä tyhjää tilaa ylle ja alle */
 #accordionFlushExample {
     margin: auto;
     margin-top: 100px;
@@ -71,16 +74,19 @@ body { position: relative;
     margin-bottom: 100px;
 }
 
+/* haitarin korttien keskitys */
 #kortti {
     margin: auto;
 }
 
+/* taulukon keskitys ja leveyden rajaus */
 .table-responsive {
     margin: auto;
     margin-bottom: 0px;
     max-width: 500px;
 }
 
+/* nuolipainikkeen alle tilaa */
 #nappi {
     margin-bottom: 100px;
 }
